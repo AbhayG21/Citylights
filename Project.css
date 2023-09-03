@@ -1,0 +1,223 @@
+#clock {
+  width: 10%;
+  text-align: center;
+  border: 2px solid rgb(232, 178, 28);
+  border-radius: 5px;
+}
+#clock:hover {
+  color: rgb(232, 178, 28);
+  cursor: pointer;
+  border: 2px solid black;
+  transform: translateY(10px);
+}
+body {
+  font-family: sans-serif;
+  background: url("background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+nav {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#navv > div {
+  color: white;
+  padding: 5px;
+  transition: border-bottom 200ms;
+  transition-timing-function: linear;
+}
+#navv > div > a {
+  text-decoration: none;
+  color: white;
+}
+#navv > div > a:hover {
+  color: rgb(232, 178, 28);
+  cursor: pointer;
+  border-bottom: 1px solid rgb(232, 178, 28);
+}
+.bg-imagee {
+  position: absolute;
+
+  height: 100vh;
+  width: 100%;
+}
+#imgtxtdiv > span {
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+}
+#imgtxtdiv {
+  transition: transform 200ms;
+}
+#imgtxtdiv:hover {
+  cursor: default;
+  transform: translateY(-10px);
+}
+#show > div {
+  height: 80%;
+  width: 25%;
+  border: 1px solid rgb(131, 131, 131);
+  border-radius: 6px;
+  opacity: initial;
+  transition: border 200ms;
+}
+#show > div:hover {
+  border: 1px solid rgb(194, 160, 64);
+}
+#show > div > div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  background-size: cover;
+  transition: background-color 200ms, color 200ms, transform 200ms;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: transparent;
+}
+#show > div > div:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  cursor: pointer;
+  transform: rotateZ(45deg);
+}
+#show > div > div > h1 {
+  transition: transform 200ms;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#show > div > div > h1:hover {
+  color: rgb(232, 178, 28);
+  transform: rotateZ(-45deg);
+}
+#brgimg {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#zz {
+  color: white;
+}
+#border {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#border > div {
+  justify-content: space-between;
+  align-items: center;
+  border: 1.5px solid rgb(232, 178, 28);
+  border-radius: 4px;
+  background-color: whitesmoke;
+}
+#border > div > div {
+  width: 49%;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1.5px solid rgb(232, 178, 28);
+  border-radius: 5px;
+}
+#border > div > div:first-child {
+  /* background-color: antiquewhite; */
+  background-color: white;
+  color: rgb(68, 68, 68);
+}
+.carousel-item > img {
+  transition: opacity 200ms;
+  border-radius: 5px;
+}
+.carousel-item > img:hover {
+  opacity: 0.7;
+}
+ul {
+  list-style: none;
+}
+ul li::before {
+  content: "\2713";
+  color: rgb(232, 178, 28);
+  display: inline-block;
+  width: 1em;
+}
+#rest {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#rest > div {
+  justify-content: space-between;
+  align-items: center;
+  border: 1.5px solid rgb(232, 178, 28);
+  border-radius: 4px;
+  background-color: whitesmoke;
+}
+#rest > div > div {
+  width: 49%;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1.5px solid rgb(232, 178, 28);
+  border-radius: 5px;
+}
+
+#park {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#park > div {
+  justify-content: space-between;
+  align-items: center;
+  border: 1.5px solid rgb(232, 178, 28);
+  border-radius: 4px;
+  background-color: whitesmoke;
+}
+#park > div > div {
+  width: 49%;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1.5px solid rgb(232, 178, 28);
+  border-radius: 5px;
+}
+#chain {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#chain > div {
+  justify-content: space-between;
+  align-items: center;
+  border: 1.5px solid rgb(232, 178, 28);
+  border-radius: 4px;
+  background-color: whitesmoke;
+}
+#chain > div > div {
+  width: 49%;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1.5px solid rgb(232, 178, 28);
+  border-radius: 5px;
+}
+#inmail,
+#inpass,
+#upmail,
+#uppass,
+#upname {
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 4px;
+}
+#inmail > input,
+#inpass > input,
+#upmail > input,
+#uppass > input,
+#upname > input {
+  border: none;
+}
+table {
+  width: 100%;
+  border: 1px solid black;
+}
+td {
+  padding: 9px;
+}
+td:nth-child(1) {
+  color: rgb(232, 178, 28);
+}
